@@ -6,12 +6,12 @@ Quick Start
 -------------------------
 In Terminal:
 
-1. docker compose -f ./docker-compose.yml build
-2. docker compose -f ./docker-compose.yml up -d
+1. `docker compose -f ./docker-compose.yml build`
+2. `docker compose -f ./docker-compose.yml up -d`
 
 
 -------------------------
-open http://localhost:8080 in your browser.
+open `http://localhost:8080` in your browser.
 
 
 Vulnerable Endpoint
@@ -29,4 +29,4 @@ Flags
 
 SUID binary at `/usr/local/bin/rootshell` allows root escalation.
 
-CLEANUP: docker compose down
+CLEANUP: `docker compose down`
