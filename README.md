@@ -6,7 +6,9 @@ Quick Start
 -------------------------
 In Terminal:
 
-docker compose up -d
+1. docker compose -f ./docker-compose.yml build
+2. docker compose -f ./docker-compose.yml up -d
+
 
 -------------------------
 open http://localhost:8080 in your browser.
@@ -27,8 +29,4 @@ Flags
 
 SUID binary at `/usr/local/bin/rootshell` allows root escalation.
 
-Cleanup
-
-In terminal:
-
-docker compose down
+CLEANUP: docker compose down
